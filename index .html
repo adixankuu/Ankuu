@@ -1,0 +1,123 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday, My Love </title>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Quicksand', sans-serif;
+      background: linear-gradient(135deg, #ffd6e8, #fff1f7);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #5a2a4a;
+    }.card {
+  background: white;
+  border-radius: 24px;
+  padding: 40px 30px;
+  max-width: 420px;
+  width: 90%;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at top left, rgba(255,182,193,0.35), transparent 60%),
+              radial-gradient(circle at bottom right, rgba(255,105,180,0.25), transparent 60%);
+  pointer-events: none;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 2.4rem;
+  margin-bottom: 10px;
+  color: #e75480;
+}
+
+.subtitle {
+  font-size: 1rem;
+  margin-bottom: 25px;
+}
+
+.heart {
+  font-size: 2.2rem;
+  animation: pulse 1.5s infinite;
+  margin-bottom: 20px;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
+
+.note {
+  background: #fff6fa;
+  border-radius: 16px;
+  padding: 20px;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.signature {
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+button {
+  background: linear-gradient(135deg, #ff7aa2, #ff4f8b);
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border-radius: 999px;
+  cursor: pointer;
+  box-shadow: 0 10px 20px rgba(255,79,139,0.35);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 26px rgba(255,79,139,0.45);
+}
+
+.footer {
+  margin-top: 20px;
+  font-size: 0.85rem;
+  opacity: 0.8;
+}
+
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="heart"></div>
+    <h1>Happy Birthday ANKUU</h1>
+    <div class="subtitle">to the most beautiful girl in my world</div><div class="note">
+  My dearest ANKUU,
+  <br /><br />
+  Happy Birthday, my love . On this special day, I just want you to know how incredibly precious you are to me. Your smile has the magic to light up my darkest moments, and your presence alone makes my world feel complete.
+  <br /><br />
+  You are not just my girlfriend, you are my safe place, my happiness, and my favorite part of every day. Thank you for loving me, supporting me, and being the beautiful soul that you are.
+  <br /><br />
+  I promise to stand by you, cheer for you, and love you a little more every single day. May this year bring you endless smiles, big dreams, and all the love your heart can hold.
+  <div class="signature">Always yours,<br />GUKKEI BUKKEI </div>
+</div>
+</div>
+
+<button onclick="alert('I love you more than words can say ')">Click for a Surprise</button>
+
+<div class="footer">Made with love, just for you </div>
+
+  </div>
+</body>
+</html>
